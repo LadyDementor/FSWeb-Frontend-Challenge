@@ -1,5 +1,74 @@
 /* ----------ModeSwitch---------*/
 
+.dark .modeSwitch {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark .modeText {
+  color: #fff;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.dark .heroLeft h2,
+.dark .skills h3 {
+  color: #aebccf;
+}
+
+.dark .profile h3,
+.dark .projects h3 {
+  color: #aebccf;
+}
+
+.dark .isim,
+.dark .isim p {
+  color: #b7aaff;
+}
+
+.dark .line {
+  color: #b7aaff;
+  border-top-color: #b7aaff;
+}
+
+.dark .skillsListGroup h4 {
+  color: #b7aaff;
+}
+
+.dark .profileBox h4,
+.dark .aboutMe h4 {
+  color: #b7aaff;
+}
+
+.dark .solBolum,
+.dark .sagBolum {
+  color: #6b7280;
+}
+
+.dark .projects-list h4 {
+  color: #b7aaff;
+}
+.dark .details p {
+  color: #6b7280;
+}
+
+.dark .footer {
+  background: #141414;
+}
+
+.dark .letsWork {
+  color: #aebccf;
+}
+
+.dark .emailcss {
+  color: b7aaff;
+}
+
+.dark .sagF1 {
+  color: #aebccf;
+}
 .modeSwitch {
   padding-left: 10rem;
   padding-right: 10rem;
@@ -68,7 +137,38 @@
 }
 
 .toggle-switch-checkbox:checked + .slider:before {
-  transform: translateX(26px); /* transform değeri değiştirildi */
+  transform: translateX(26px);
+}
+.footer {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer.dark {
+  background-color: #1f2937;
+}
+
+.letsWork {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.letsWork.dark {
+  color: #f4f5f7;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle.dark {
+  color: #f4f5f7;
 }
 
 /* ----------Header---------*/
@@ -127,7 +227,7 @@
 }
 /* ----------Bio---------*/
 
-.hero {
+.heroBox {
   padding-top: 5rem;
   padding-left: 10rem;
   padding-right: 10rem;
@@ -452,7 +552,6 @@ a {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  flex-wrap: wrap;
   padding: 0px;
   gap: 7.5rem;
 }
@@ -466,6 +565,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  float: left;
 }
 
 .projects-list h4 {
